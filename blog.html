@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blog Personal - Tutoriale și Articole</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>Blogul meu </h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Acasă</a></li>
+                    <li><a href="#about">Despre mine</a></li>
+                    <li><a href="#articles">Articole</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Section 1: Home -->
+        <section id="home">
+            <h2>Bine ai venit!</h2>
+            <p>Aici vei găsi tutoriale despre tehnologie, recenzii de produse și multe altele. Sunt pasionat de dezvoltare web și îmi place să împărtășesc din experiența mea cu ceilalți.</p>
+            <img src="blog-header.jpg" alt="Imagine header blog">
+        </section>
+
+        <!-- Section 2: About -->
+        <section id="about">
+            <h2>Despre mine</h2>
+            <article>
+                <p><strong>Salut!</strong> Sunt Andrei, un dezvoltator web pasionat de tehnologie. În acest blog voi discuta despre subiecte ce țin de programare, tehnici noi, unelte pentru dezvoltatori și multe altele. Îmi place să împărtășesc cunoștințele și să ajut pe oricine vrea să învețe mai multe despre acest domeniu.</p>
+                <img src="about-me.jpg" alt="Despre mine">
+            </article>
+        </section>
+
+        <!-- Section 3: Articles -->
+        <section id="articles">
+            <h2>Articole recente</h2>
+
+            <article>
+                <h3>Introducere în HTML5: Noile elemente și atribute</h3>
+                <p>HTML5 aduce multe îmbunătățiri față de versiunile anterioare. În acest articol, vom explora cele mai importante elemente și atribute noi. Citind acest articol, vei învăța cum să utilizezi aceste funcționalități în proiectele tale.</p>
+                <a href="#read-more">Citește mai mult</a>
+            </article>
+
+            <article>
+                <h3>Ghidul complet pentru CSS Flexbox</h3>
+                <p>CSS Flexbox este o metodă modernă de a aranja elemente într-o pagină. Dacă vrei să înveți cum să creezi layout-uri flexibile, acest ghid este pentru tine.</p>
+                <a href="#read-more">Citește mai mult</a>
+            </article>
+
+            <article>
+                <h3>Cum să îți creezi propriul site de e-commerce</h3>
+                <p>În acest articol, vei învăța pașii necesari pentru a-ți construi un site de magazin online de la zero, folosind platformele cele mai populare și tehnologii moderne.</p>
+                <a href="#read-more">Citește mai mult</a>
+            </article>
+        </section>
+
+        <!-- Section 4: Contact -->
+        <section id="contact">
+            <h2>Contactează-mă</h2>
+            <form action="#" method="POST">
+                <label for="name">Numele tău:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Adresa ta de email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mesajul tău:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Trimite</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Blog Personal. Toate drepturile rezervate.</p>
+    </footer>
+
+</body>
+
+</html>
